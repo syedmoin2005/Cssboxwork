@@ -1,0 +1,59 @@
+.main-column {
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex !important;
+}
+.column-one {
+    padding: 30px 38px;
+    width: 18%;
+    text-align: center;
+    border: 1px solid;
+}
+.column-one i {
+    font-size: 65px;
+}
+.column-one button {
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 30px;
+    border: 1px solid;
+    background: white;
+    /* width: 61%; */
+    padding: 15px 65px;
+}
+.column-one:hover {
+    cursor: pointer;
+    transition-duration: .5s;
+    background: rgb(192, 29, 56);
+}
+.column-one:hover i{
+    color: white !important;
+}
+.column-one:hover h1{
+    color: white !important;
+}
+.column-one:hover p{
+    color: white !important;
+}
+.column-one i, h1, p{
+    color: black !important;
+}
+.column-one button {
+    background-color: black;
+    color: white !important;
+}
+.column-one:hover button {
+    background: lightpink;
+    color: black;
+}
+.column-one button a {
+    text-decoration: none;
+    color: white !important;
+}
+.css-box h2 {
+    text-align: center !important;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-shadow: 1px 8px 12px skyblue;
+}
